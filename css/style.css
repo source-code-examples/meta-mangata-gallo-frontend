@@ -134,14 +134,20 @@ article {
 .cards {
   flex: 1 1 300px;
   text-align: center;
+  justify-items: center;
 }
 
 .cards img {
   height: 300px;
   width: 22rem;
-  margin: 20px 0 80px 0;
+  margin: 20px 0 0 0;
   border: 2px solid #d4af37;
   border-radius: 15px;
+}
+
+.cards p {
+  width: 25rem;
+  padding: 10px 25px 80px 25px;
 }
 
 footer {

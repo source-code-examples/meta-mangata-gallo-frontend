@@ -1,0 +1,18 @@
+# Node/Frontend
+node_modules/
+dist/
+build/
+.next/
+.cache/
+coverage/
+.parcel-cache/
+
+# Env und lokal
+.env
+.env.local
+.DS_Store
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
